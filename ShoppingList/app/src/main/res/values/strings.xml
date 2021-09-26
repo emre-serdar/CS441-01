@@ -4,4 +4,5 @@
     <string name="button">Button</string>
     <string name="add">ADD</string>
     <string name="name">Name</string>
+    <string name="delete">DELETE</string>
 </resources>
