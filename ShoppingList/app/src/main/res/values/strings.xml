@@ -3,4 +3,5 @@
     <string name="edittexttoadditem">editTextToAddItem</string>
     <string name="button">Button</string>
     <string name="add">ADD</string>
+    <string name="name">Name</string>
 </resources>

@@ -9,23 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0080a0ea-e769-4c1d-a8c7-698185379a82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Coin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/Coin.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coin/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CS441-01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coin/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coin/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dice/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/example/dice/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/example/dice/MainActivity.kt" afterDir="false" />
-    </list>
+    <list default="true" id="0080a0ea-e769-4c1d-a8c7-698185379a82" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShoppingList" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">

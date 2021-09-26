@@ -2,24 +2,17 @@ package com.example.shoppinglist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Adapter
-import android.widget.Button
-import android.widget.LinearLayout
-import android.widget.TextView
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import android.widget.*
+
 
 class MainActivity : AppCompatActivity() {
 
-
+    //shopping item lists has to be decleared in main
+    val items: MutableList<String> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        // User's input of text
-
-        val textView : TextView = findViewById(R.id.textView)
 
         //ADD BUTTON
         val rollButton: Button = findViewById(R.id.button1)
@@ -27,22 +20,30 @@ class MainActivity : AppCompatActivity() {
             addItem()
         }
 
-        val myRecyclerView: RecyclerView = findViewById(R.id.recyclerView)
-
-        //Layout
-        myRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-        //adapter
-        myRecyclerView.adapter = Adapter
-
-
-
-
-
     }
 
     private fun addItem() {
-        // Take the textview which users enters, add it to dynamic list of RecylerView
 
-        TODO("Not yet implemented")
+        // User's input of text
+        val editText = findViewById<EditText>(R.id.editItem)
+        val editTextValue = editText.text.toString() //the value user enters
+
+        //add items
+        items.add(editTextValue)
+        val arrayAdapter: ArrayAdapter<*>
+
+        var myListView = findViewById<ListView>(R.id.shoppinglist)
+        arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
+        myListView.adapter = arrayAdapter
+
     }
+
+    private fun deleteItem() {
+        val editText = findViewById<EditText>(R.id.editItem)
+        val editTextValue = editText.text.toString()
+
+        //
+    }
+
+
 }
