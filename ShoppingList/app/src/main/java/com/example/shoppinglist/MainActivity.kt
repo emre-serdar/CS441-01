@@ -1,9 +1,12 @@
 package com.example.shoppinglist
 
+import android.app.Activity
 import android.os.Bundle
+import android.view.KeyEvent
+import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,14 +20,34 @@ class MainActivity : AppCompatActivity() {
 
         //ADD BUTTON
         val addButton: Button = findViewById(R.id.button1)
+        //editable text
+        val editText = findViewById<EditText>(R.id.editItem)
+        val editTextValue = editText.text.toString()
 
 
+        // If user clicks "Enter/Return" char on keyboard
+        editText.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+            if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP) {
+                //If item is already inside
+                hideSoftKeyboard();  // to hide soft keyboard after clicks
+                if(editTextValue in items){
+                    Toast.makeText(applicationContext, "Item already exist on the list!", Toast.LENGTH_LONG).show()
+                }
+                else {
+                    addItem()
+                }
 
+                return@OnKeyListener true
+            }
+            false
+        })
+
+        //If user clicks add button
         addButton.setOnClickListener {
-
             val editText = findViewById<EditText>(R.id.editItem)
 
             val editTextValue = editText.text.toString()
+
             //If item is already inside
             if(editTextValue in items){
                     Toast.makeText(applicationContext, "Item already exist on the list!", Toast.LENGTH_LONG).show()
@@ -32,24 +55,24 @@ class MainActivity : AppCompatActivity() {
             else {
                 addItem()
             }
-
+            hideSoftKeyboard();
         }
+
         //Delete Button
         val deleteButton: Button = findViewById(R.id.button2)
-
+        //If user clicks delete button
         deleteButton.setOnClickListener{
             val editText = findViewById<EditText>(R.id.editItem)
 
             val editTextValue = editText.text.toString()
-            //If item is already inside
+            //If item is not in lis
             if (!(editTextValue in items)){
                 Toast.makeText(applicationContext, "You cannot delete and item that doesn't exist!", Toast.LENGTH_LONG).show()
             }
             else {
                 deleteItem()
             }
-
-
+            hideSoftKeyboard();
         }
     }
 
@@ -85,5 +108,9 @@ class MainActivity : AppCompatActivity() {
         //
     }
 
-
+    fun Activity.hideSoftKeyboard(){
+        (getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager).apply {
+            hideSoftInputFromWindow(currentFocus?.windowToken, 0)
+        }
+    }
 }
