@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
         //If user clicks add button
         addButton.setOnClickListener {
             val editText = findViewById<EditText>(R.id.editItem)
-
             val editTextValue = editText.text.toString()
 
             //If item is already inside
@@ -79,11 +78,10 @@ class MainActivity : AppCompatActivity() {
     private fun addItem() {
 
         // User's input of text
-        //the value user enters
         val editText = findViewById<EditText>(R.id.editItem)
+        //the value user enters
         val editTextValue = editText.text.toString()
         //add items
-
         items.add(editTextValue)
 
         val arrayAdapter: ArrayAdapter<*>
@@ -91,7 +89,6 @@ class MainActivity : AppCompatActivity() {
         var myListView = findViewById<ListView>(R.id.shoppinglist)
         arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
         myListView.adapter = arrayAdapter
-
     }
 
     private fun deleteItem() {
