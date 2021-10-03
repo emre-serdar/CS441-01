@@ -9,7 +9,51 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0080a0ea-e769-4c1d-a8c7-698185379a82" name="Default Changelist" comment="" />
+    <list default="true" id="0080a0ea-e769-4c1d-a8c7-698185379a82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/androidTest/java/com/example/lemonade/BaseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/androidTest/java/com/example/lemonade/LemonadeTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/ic_launcher_lemonade-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/java/com/example/lemonade/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/drawable/ic_launcher_lemonade_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/drawable/ic_launcher_lemonade_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/drawable/lemon_drink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/drawable/lemon_restart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/drawable/lemon_squeeze.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/drawable/lemon_tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_lemonade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_lemonade_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-hdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-hdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-mdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-mdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-xhdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-xhdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/code-of-conduct.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemonadeApp/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
