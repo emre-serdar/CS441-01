@@ -19,10 +19,10 @@ class DrawPath @JvmOverloads constructor(
     init{  //initializing paint variable
         paint = Paint()
         path = Path()
-        paint!!.color= Color.BLUE
-        paint!!.strokeWidth = 10f
-        paint!!.style=Paint.Style.STROKE
-        paint!!.isAntiAlias = true
+        paint!!.color= Color.BLUE //color
+        paint!!.strokeWidth = 20f // width
+        paint!!.style=Paint.Style.STROKE //geometry drawn will be stroked
+        paint!!.isAntiAlias = true //smoother lines thanks to antialiasing
     }
 
     override fun onDraw(canvas: Canvas?) {
@@ -30,7 +30,7 @@ class DrawPath @JvmOverloads constructor(
     }
 
     override fun onTouchEvent(event: MotionEvent?): Boolean {
-        val xAxis : Float=event!!.x
+        val xAxis : Float=event!!.x  //defining x and y paths on their axis
         val yAxis : Float= event!!.y
 
         when ( event!!.action) {
